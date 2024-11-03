@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import Banner from "../../Component/Banner/Banner";
+import Experience from "../../Component/Experience/Experience";
 
 const HomePage = () => {
     return (
@@ -8,8 +9,9 @@ const HomePage = () => {
                 <title>Home page</title>
             </Helmet>
             
-            <div>
+            <div className="">
                 <Banner/>
+                <Experience/>
             </div>
         </div>
     );

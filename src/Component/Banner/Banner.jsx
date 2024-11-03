@@ -1,12 +1,12 @@
 const Banner = () => {
   return (
     // className="lg:flex justify-between items-center text-white lg:my-20"
-    <div className="lg:flex justify-between items-center text-white lg:my-20 lg:mx-auto">
+    <div className="lg:flex p-3 bg-[#BD1F17] lg:px-48 justify-between items-center text-white lg:py-20 lg:mx-auto">
       <div className="flex-1"></div>
 
       <div className="lg:absolute space-y-5 z-50">
         <div className="lg:w-2/3 bg-[#BD1F17] bg-opacity-60 py-2">
-          <p className="font-Bebas text-5xl lg:text-8xl mt-10 lg:mt-0">
+          <p className="font-Bebas text-5xl lg:text-9xl mt-10 lg:mt-0">
             Taste the authentic Saudi cuisine
           </p>
         </div>

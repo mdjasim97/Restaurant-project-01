@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { IoCloseOutline, IoMenu } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
-import '../../assets/style.css'
+import "../../assets/style.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -51,7 +51,7 @@ const Navbar = () => {
   }, [open]);
 
   return (
-    <div>
+    <div className="bg-[#BD1F17] p-2 lg:px-48">
       <nav className="flex justify-between sticky">
         {/* Restaurant logo, name & large device navbar  */}
         <div className="flex items-center text-white">
