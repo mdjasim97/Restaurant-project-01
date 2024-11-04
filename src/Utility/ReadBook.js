@@ -1,5 +1,5 @@
 const getReadsBookStorage = () => {
-    const readBookStorage = localStorage.getItem("reads-book");
+    const readBookStorage = localStorage.getreview("reads-book");
     if (readBookStorage) {
         return JSON.parse(readBookStorage)
     }
@@ -12,7 +12,7 @@ const saveReadBooks = (id) => {
 
     if (!exits) {
         readBookStore.push(id)
-        localStorage.setItem("reads-book", JSON.stringify(readBookStore))
+        localStorage.setreview("reads-book", JSON.stringify(readBookStore))
     }
 }
 

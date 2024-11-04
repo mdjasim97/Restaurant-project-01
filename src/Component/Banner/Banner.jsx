@@ -1,6 +1,5 @@
 const Banner = () => {
   return (
-    // className="lg:flex justify-between items-center text-white lg:my-20"
     <div className="lg:flex p-3 bg-[#BD1F17] lg:px-48 justify-between items-center text-white lg:py-20 lg:mx-auto">
       <div className="flex-1"></div>
 

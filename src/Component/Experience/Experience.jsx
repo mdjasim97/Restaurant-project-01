@@ -5,11 +5,11 @@ const Experience = () => {
     <div className="lg:px-48 py-8 lg:py-28 m-5 relative">
       <div>
         {/* top part  */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 reviews-center">
           <div className="relative">
             <img src="https://i.ibb.co.com/Wf42Zv6/experience.png" alt="" />
 
-            <div className="flex justify-center items-center w-32 h-20 lg:w-60 lg:h-36 bg-white absolute top-5 left-5 lg:rounded-2xl">
+            <div className="flex justify-center reviews-center w-32 h-20 lg:w-60 lg:h-36 bg-white absolute top-5 left-5 lg:rounded-2xl">
               <div
                 className="radial-progress text-[#FEBF00] lg:mr-5"
                 style={{ "--value": 85 }}
@@ -27,7 +27,7 @@ const Experience = () => {
           <div>
             {/* Tabs Section  */}
             <div role="tablist" className="tabs tabs-bordered ">
-              {/* tab item 01  */}
+              {/* tab review 01  */}
               <input
                 type="radio"
                 name="my_tabs_1"
@@ -49,19 +49,19 @@ const Experience = () => {
                   exercitation.
                 </p>
 
-                <div className="flex items-center">
+                <div className="flex reviews-center">
                   <button className="btn font-Roboto uppercase bg-[#FEBF00] text-[#0A1425]">
                     About More
                   </button>
 
-                  <p className="font-bold flex items-center border border-dashed text-lg ml-10">
+                  <p className="font-bold flex reviews-center border border-dashed text-lg ml-10">
                     <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178
                     429 3797
                   </p>
                 </div>
               </div>
 
-              {/* tab item 02  */}
+              {/* tab review 02  */}
               <input
                 type="radio"
                 name="my_tabs_1"
@@ -83,19 +83,19 @@ const Experience = () => {
                   voluptatem!
                 </p>
 
-                <div className="flex items-center">
+                <div className="flex reviews-center">
                   <button className="btn font-Roboto uppercase bg-[#FEBF00] text-[#0A1425]">
                     About More
                   </button>
 
-                  <p className="font-bold flex items-center border border-dashed text-lg ml-10">
+                  <p className="font-bold flex reviews-center border border-dashed text-lg ml-10">
                     <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178
                     429 3797
                   </p>
                 </div>
               </div>
 
-              {/* tab item 03  */}
+              {/* tab review 03  */}
               <input
                 type="radio"
                 name="my_tabs_1"
@@ -117,12 +117,12 @@ const Experience = () => {
                   eius animi officiis nobis?
                 </p>
 
-                <div className="flex items-center">
+                <div className="flex reviews-center">
                   <button className="btn font-Roboto uppercase bg-[#FEBF00] text-[#0A1425]">
                     About More
                   </button>
 
-                  <p className="font-bold flex items-center border border-dashed text-lg ml-10">
+                  <p className="font-bold flex reviews-center border border-dashed text-lg ml-10">
                     <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178
                     429 3797
                   </p>
@@ -135,8 +135,8 @@ const Experience = () => {
         {/* ===================================================== */}
         {/* bottom part  */}
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:py-10">
-          <div className="flex items-center justify-center gap-10">
-            <div className="shadow-lg flex justify-center items-center h-20 w-20 rounded-full p-2">
+          <div className="flex reviews-center justify-center gap-10">
+            <div className="shadow-lg flex justify-center reviews-center h-20 w-20 rounded-full p-2">
               <img src="https://i.ibb.co.com/TtgLn30/package.jpg" alt="" />
             </div>
             <div className="flex-grow">
@@ -145,8 +145,8 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center gap-10">
-            <div className="shadow-lg flex justify-center items-center h-20 w-20 rounded-full p-2">
+          <div className="flex reviews-center justify-center gap-10">
+            <div className="shadow-lg flex justify-center reviews-center h-20 w-20 rounded-full p-2">
               <img src="https://i.ibb.co.com/ww6Nnpg/medal.png" alt="" />
             </div>
             <div className="flex-grow">
@@ -155,8 +155,8 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center gap-10">
-            <div className="shadow-lg flex justify-center items-center h-20 w-20 rounded-full p-2">
+          <div className="flex reviews-center justify-center gap-10">
+            <div className="shadow-lg flex justify-center reviews-center h-20 w-20 rounded-full p-2">
               <img src="https://i.ibb.co.com/JQzjZMy/bag.png" alt="" />
             </div>
             <div className="flex-grow">

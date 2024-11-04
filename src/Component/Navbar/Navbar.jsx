@@ -54,11 +54,11 @@ const Navbar = () => {
     <div className="bg-[#BD1F17] p-2 lg:px-48">
       <nav className="flex justify-between sticky">
         {/* Restaurant logo, name & large device navbar  */}
-        <div className="flex items-center text-white">
+        <div className="flex reviews-center text-white">
           <img src="https://i.ibb.co.com/WVsygJD/logo.png" alt="" />
           <h1 className="text-3xl ml-2">Restaurant</h1>
 
-          <div className="lg:ml-10 hidden lg:flex ">
+          <div className="lg:ml-10 hidden lg:flex z-50 ">
             <ul className="menu menu-horizontal px-1">{links}</ul>
           </div>
         </div>
@@ -80,7 +80,7 @@ const Navbar = () => {
             </button>
 
             <div>
-              <div className="lg:flex lg:w-full lg:items-center lg:justify-center">
+              <div className="lg:flex lg:w-full lg:reviews-center lg:justify-center">
                 <ul
                   id="dropdown"
                   className={`lg:hidden text-xl duration-1000 bg-[#BD1F17] absolute right-4 ${
@@ -97,7 +97,7 @@ const Navbar = () => {
 
       <div className="bg-[#BD1F17] text-white">
         <div className="flex">
-          {/* <div className="text-3xl font-OpenSans flex items-center">
+          {/* <div className="text-3xl font-OpenSans flex reviews-center">
             <img
               src="https://i.ibb.co.com/WVsygJD/logo.png"
               alt=""

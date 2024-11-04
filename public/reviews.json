@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "foodId": 1,
+        "reviewer": "John Doe",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/g7zVsjHx-Vw?si=3Szq11NK0_RIOwdJ",
+        "reviewerLocation": "New York, USA",
+        "rating": 4.5,
+        "comment": "You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.",
+        "date": "2024-10-31"
+    },
+    {
+        "id": 2,
+        "foodId": 2,
+        "reviewer": "Jane Smith",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/lgLkcII1zVQ?si=STeLpH_33-FBLSEj",
+        "reviewerLocation": "London, UK",
+        "rating": 4.0,
+        "comment": "Margherita Pizza is a delightful choice. The blend of cheese and tomato sauce is spot-on, and the fresh basil adds a lovely aromatic touch. It’s a classic done right with quality ingredients. If you enjoy traditional flavors, you’ll love this!",
+        "date": "2024-11-01"
+    },
+    {
+        "id": 3,
+        "foodId": 3,
+        "reviewer": "Michael Lee",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/g7zVsjHx-Vw?si=3Szq11NK0_RIOwdJ",
+        "reviewerLocation": "Ottawa, Canada",
+        "rating": 3.5,
+        "comment": "Spaghetti Carbonara is rich and creamy, with a nice hint of pancetta that enhances the dish. The pasta is cooked just right, although the sauce may be a bit heavy for some. Perfect for those craving authentic Italian pasta!",
+        "date": "2024-10-25"
+    },
+    {
+        "id": 4,
+        "foodId": 4,
+        "reviewer": "Emily Clark",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/lgLkcII1zVQ?si=STeLpH_33-FBLSEj",
+        "reviewerLocation": "Melbourne, Australia",
+        "rating": 5.0,
+        "comment": "The Caesar Salad is fresh, with crisp romaine lettuce and crunchy croutons. The dressing, however, is quite strong, which can overpower the dish. If you prefer a lighter dressing, it may be a bit much, but overall a solid salad.",
+        "date": "2024-11-02"
+    },
+    {
+        "id": 5,
+        "foodId": 5,
+        "reviewer": "Alex Johnson",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/g7zVsjHx-Vw?si=3Szq11NK0_RIOwdJ",
+        "reviewerLocation": "Los Angeles, USA",
+        "rating": 4.2,
+        "comment": "The Beef Burger is fantastic—juicy, flavorful, and perfectly cooked. The lettuce and tomato add freshness, while the cheese melts just right. If you’re looking for a classic burger with great taste, this one is highly recommended!",
+        "date": "2024-10-20"
+    },
+    {
+        "id": 6,
+        "foodId": 6,
+        "reviewer": "Samantha Brown",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/lgLkcII1zVQ?si=STeLpH_33-FBLSEj",
+        "reviewerLocation": "Tokyo, Japan",
+        "rating": 4.8,
+        "comment": "The Chicken Tacos were delicious, with tender chicken and a fresh, tangy salsa. The seasoning is mild, so if you like a bolder flavor, you may want extra spices. Overall, a great choice for a light, tasty meal!",
+        "date": "2024-11-03"
+    },
+    {
+        "id": 7,
+        "foodId": 7,
+        "reviewer": "Tom Wilson",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/g7zVsjHx-Vw?si=3Szq11NK0_RIOwdJ",
+        "reviewerLocation": "Bangkok, Thailand",
+        "rating": 4.7,
+        "comment": "The Sushi Platter is fresh, beautifully arranged, and offers a nice variety. The salmon, tuna, and avocado rolls are top-notch. Ideal for sushi lovers, as each piece is crafted with care and quality ingredients. Highly recommended for freshness!",
+        "date": "2024-10-30"
+    },
+    {
+        "id": 8,
+        "foodId": 8,
+        "reviewer": "Lisa Nguyen",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/lgLkcII1zVQ?si=STeLpH_33-FBLSEj",
+        "reviewerLocation": "Ho Chi Minh City, Vietnam",
+        "rating": 4.3,
+        "comment": "Pad Thai is a well-made, flavorful dish. The noodles have a perfect texture, and the balance of sweet and spicy flavors is just right. Shrimp and tofu add great variety. A must-try for anyone who enjoys bold, Asian-inspired flavors!",
+        "date": "2024-11-01"
+    },
+    {
+        "id": 9,
+        "foodId": 9,
+        "reviewer": "Chris Patel",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/g7zVsjHx-Vw?si=3Szq11NK0_RIOwdJ",
+        "reviewerLocation": "Athens, Greece",
+        "rating": 3.8,
+        "comment": "BBQ Ribs are a treat—tender, smoky, and with a glaze that’s just the right mix of sweet and savory. Perfectly cooked, each bite is satisfying. If you’re a fan of BBQ, these ribs are a fantastic choice to savor.",
+        "date": "2024-10-28"
+    },
+    {
+        "id": 10,
+        "foodId": 10,
+        "reviewer": "Anna Kim",
+        "image": "https://i.ibb.co.com/CBx71vf/reviewer.jpg",
+        "video": "https://www.youtube.com/embed/lgLkcII1zVQ?si=STeLpH_33-FBLSEj",
+        "reviewerLocation": "Seoul, South Korea",
+        "rating": 5.0,
+        "comment": "Greek Gyro has great flavor, with well-seasoned meat and fresh vegetables. The tzatziki is tasty but could be more generous for added creaminess. A solid choice for those who love Mediterranean flavors, although a bit more sauce would make it perfect.",
+        "date": "2024-10-27"
+    }
+]

@@ -30,20 +30,20 @@ const Popular = () => {
               </li>
             </p>
             <h1 className="text-5xl lg:text-6xl font-bold font-Bebas">
-              POPULAR FOOD ITEMS
+              POPULAR FOOD reviewS
             </h1>
           </div>
 
           {/* lg device carousel control btn  */}
           <div className="mt-10 hidden lg:block">
             <button
-              className="btn rounded-full drop-shadow-xl mr-5"
+              className=" btn rounded-full drop-shadow-xl text-2xl mr-5"
               onClick={() => swiperRef.current?.slidePrev()}
             >
               <GrFormPrevious />
             </button>
             <button
-              className="btn rounded-full drop-shadow-xl"
+              className="btn rounded-full text-2xl drop-shadow-xl"
               onClick={() => swiperRef.current?.slideNext()}
             >
               <MdNavigateNext />
@@ -76,19 +76,19 @@ const Popular = () => {
             }}
           >
             <div>
-              {foods?.map((item) => (
-                <SwiperSlide key={item.id} className="my-5 lg:my-20">
+              {foods?.map((review) => (
+                <SwiperSlide key={review.id} className="my-5 lg:my-20">
                   <div
-                    key={item.id}
-                    className="bg-[#FFFFFF] flex p-5 flex-col justify-center items-center"
+                    key={review.id}
+                    className="bg-[#FFFFFF] flex p-5 flex-col justify-center items-center reviews-center"
                   >
-                    <img src={item.image} alt="" className="h-24" />
+                    <img src={review.image} alt="" className="lg:h-24" />
 
-                    <h1 className="text-2xl font-Bebas">{item.name}</h1>
+                    <h1 className="text-2xl font-Bebas">{review.name}</h1>
                     <p className="font-Inter">
-                      {item.description.length > 20
-                        ? item.description.slice(0, 20) + "..."
-                        : item.description}
+                      {review.description.length > 20
+                        ? review.description.slice(0, 20) + "..."
+                        : review.description}
                     </p>
                   </div>
                 </SwiperSlide>
