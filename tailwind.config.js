@@ -14,6 +14,14 @@ export default {
                 'Roboto': ["'Roboto', serif"],
                 'Poppins': ["'Poppins', sans-serif"],
                 'Inter': ["'Inter', serif"]
+            },
+
+            listStyleType: {
+                none: 'none',
+                disc: 'disc',
+                decimal: 'decimal',
+                square: 'square',
+                roman: 'upper-roman',
             }
         },
     },

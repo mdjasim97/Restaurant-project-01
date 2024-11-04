@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita Pizza",
+    "description": "Classic cheese and tomato pizza with fresh basil.",
+    "price": 8.99,
+    "category": "Pizza",
+    "image": "https://i.ibb.co.com/pZXvLGY/burger.png"
+  },
+  {
+    "id": 2,
+    "name": "Spaghetti Carbonara",
+    "description": "Italian pasta with creamy sauce, pancetta, and Parmesan.",
+    "price": 12.5,
+    "category": "Pasta",
+    "image": "https://i.ibb.co.com/8zvb21c/pizza.png"
+  },
+  {
+    "id": 3,
+    "name": "Caesar Salad",
+    "description": "Fresh romaine lettuce, croutons, and Caesar dressing.",
+    "price": 7.0,
+    "category": "Salad",
+    "image": "https://i.ibb.co.com/512JsnZ/french-fries.png"
+  },
+  {
+    "id": 4,
+    "name": "Beef Burger",
+    "description": "Grilled beef patty with lettuce, tomato, and cheese.",
+    "price": 10.0,
+    "category": "Burger",
+    "image": "https://i.ibb.co.com/Xtzsn9f/fried-shrimp.png"
+  },
+  {
+    "id": 5,
+    "name": "Chicken Tacos",
+    "description": "Soft tacos with seasoned chicken, lettuce, and salsa.",
+    "price": 6.5,
+    "category": "Tacos",
+    "image": "https://i.ibb.co.com/pZXvLGY/burger.png"
+  },
+  {
+    "id": 6,
+    "name": "Sushi Platter",
+    "description": "Assorted sushi rolls with salmon, tuna, and avocado.",
+    "price": 15.0,
+    "category": "Sushi",
+    "image": "https://i.ibb.co.com/8zvb21c/pizza.png"
+  },
+  {
+    "id": 7,
+    "name": "Pad Thai",
+    "description": "Stir-fried noodles with shrimp, tofu, and peanuts.",
+    "price": 11.0,
+    "category": "Noodles",
+    "image": "https://i.ibb.co.com/512JsnZ/french-fries.png"
+  },
+  {
+    "id": 8,
+    "name": "BBQ Ribs",
+    "description": "Tender pork ribs with a smoky barbecue glaze.",
+    "price": 18.0,
+    "category": "BBQ",
+    "image": "https://i.ibb.co.com/Xtzsn9f/fried-shrimp.png"
+  },
+  {
+    "id": 9,
+    "name": "Greek Gyro",
+    "description": "Grilled meat in pita bread with tzatziki and veggies.",
+    "price": 9.0,
+    "category": "Greek",
+    "image": "https://i.ibb.co.com/pZXvLGY/burger.png"
+  },
+  {
+    "id": 10,
+    "name": "Chocolate Lava Cake",
+    "description": "Warm chocolate cake with a molten center.",
+    "price": 5.5,
+    "category": "Dessert",
+    "image": "https://i.ibb.co.com/8zvb21c/pizza.png"
+  }
+]

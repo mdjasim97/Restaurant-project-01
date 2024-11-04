@@ -2,9 +2,10 @@ import { FiPhoneCall } from "react-icons/fi";
 
 const Experience = () => {
   return (
-    <div className="lg:px-48 py-8 lg:py-28 m-5">
+    <div className="lg:px-48 py-8 lg:py-28 m-5 relative">
       <div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        {/* top part  */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="relative">
             <img src="https://i.ibb.co.com/Wf42Zv6/experience.png" alt="" />
 
@@ -17,10 +18,14 @@ const Experience = () => {
                 <p className="text-[#333] text-xs lg:text-2xl">50+</p>
               </div>
 
-              <div className="text-xs">Market <br /> Experiences</div>
+              <div className="text-xs">
+                Market <br /> Experiences
+              </div>
             </div>
           </div>
+
           <div>
+            {/* Tabs Section  */}
             <div role="tablist" className="tabs tabs-bordered ">
               {/* tab item 01  */}
               <input
@@ -50,8 +55,8 @@ const Experience = () => {
                   </button>
 
                   <p className="font-bold flex items-center border border-dashed text-lg ml-10">
-                    <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178 429
-                    3797
+                    <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178
+                    429 3797
                   </p>
                 </div>
               </div>
@@ -84,8 +89,8 @@ const Experience = () => {
                   </button>
 
                   <p className="font-bold flex items-center border border-dashed text-lg ml-10">
-                    <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178 429
-                    3797
+                    <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178
+                    429 3797
                   </p>
                 </div>
               </div>
@@ -118,8 +123,8 @@ const Experience = () => {
                   </button>
 
                   <p className="font-bold flex items-center border border-dashed text-lg ml-10">
-                    <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178 429
-                    3797
+                    <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178
+                    429 3797
                   </p>
                 </div>
               </div>
@@ -127,14 +132,42 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3">
-          <div>
-            <div className=""></div>
+        {/* ===================================================== */}
+        {/* bottom part  */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 lg:py-10">
+          <div className="flex items-center justify-center gap-10">
+            <div className="shadow-lg flex justify-center items-center h-20 w-20 rounded-full p-2">
+              <img src="https://i.ibb.co.com/TtgLn30/package.jpg" alt="" />
+            </div>
+            <div className="flex-grow">
+              <h1 className="uppercase font-Bebas text-3xl">fast delivery</h1>
+              <p className="font-Inter text-xl">Within 30 minutes</p>
+            </div>
           </div>
-          <div>02</div>
-          <div>03</div>
+
+          <div className="flex items-center justify-center gap-10">
+            <div className="shadow-lg flex justify-center items-center h-20 w-20 rounded-full p-2">
+              <img src="https://i.ibb.co.com/ww6Nnpg/medal.png" alt="" />
+            </div>
+            <div className="flex-grow">
+              <h1 className="uppercase font-Bebas text-3xl">absolute dining</h1>
+              <p className="font-Inter text-xl">Best buffet restaurant</p>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-center gap-10">
+            <div className="shadow-lg flex justify-center items-center h-20 w-20 rounded-full p-2">
+              <img src="https://i.ibb.co.com/JQzjZMy/bag.png" alt="" />
+            </div>
+            <div className="flex-grow">
+              <h1 className="uppercase font-Bebas text-3xl">pickup delivery</h1>
+              <p className="font-Inter text-xl">Grab your food order</p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <img className="absolute hidden lg:flex bottom-16 right-0" src="https://i.ibb.co.com/Cv6nGfd/view-bell-sliced.png" alt="" />
     </div>
   );
 };
