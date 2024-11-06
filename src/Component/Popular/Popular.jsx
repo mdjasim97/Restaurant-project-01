@@ -97,7 +97,7 @@ const Popular = () => {
           </Swiper>
         </div>
 
-        {/* lg device carousel control btn  */}
+        {/* smail device carousel control btn  */}
         <div className="lg:hidden flex justify-center">
           <button
             className="btn rounded-full drop-shadow-xl mr-5"
