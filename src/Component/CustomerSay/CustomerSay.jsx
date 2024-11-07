@@ -22,17 +22,17 @@ const CustomerSay = () => {
         <div className="flex justify-between">
           <div className="space-y-5">
             <p>
-              <li className="list-square lg:text-xl font-bold text-[#BD1F17]">
+              <li className="list-square md:text-2xl lg:text-xl font-bold text-[#BD1F17]">
                 Crispy, Every Bite Taste
               </li>
             </p>
-            <h1 className="text-5xl lg:text-6xl font-Bebas">
+            <h1 className="text-5xl md:text-8xl lg:text-6xl font-Bebas">
               What Some of my Customers Say
             </h1>
           </div>
 
           {/* large device carousel control button  */}
-          <div className="hidden lg:block">
+          <div className="hidden lg:block lg:mt-10">
             <button
               className="btn rounded-full text-2xl drop-shadow-xl mr-5"
               onClick={() => swiperRef.current?.slidePrev()}
@@ -50,12 +50,7 @@ const CustomerSay = () => {
         <div>
           <Swiper
             spaceBetween={30}
-            // centeredSlides={true}
             slidesPerView={1}
-            // autoplay={{
-            //   delay: 6000,
-            //   disableOnInteraction: false,
-            // }}
             pagination={{
               clickable: true,
             }}
@@ -80,7 +75,7 @@ const CustomerSay = () => {
                     className="flex flex-col lg:flex-row flex-col-reverse w-full"
                   >
                     <div className="bg-[#FEBF00] p-10 flex-1">
-                      <p className="text-xl lg:text-center lg:p-5">
+                      <p className="text-xl md:text-2xl lg:text-xl lg:text-center lg:p-5">
                         <span className="text-5xl font-bold">“</span>
                         {review.comment}
                       </p>

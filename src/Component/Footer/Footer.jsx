@@ -59,9 +59,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="lg:w-1/3 mx-auto p-4 space-y-5">
+        <div className="md:2/3 lg:w-1/2 mx-auto space-y-5">
           {/* items */}
-          <div className="grid grid-cols-4">
+          <div className="flex justify-center items-center space-x-5">
             <Link
               to="https://www.facebook.com/mjunachole97"
               target="_blank"
@@ -92,9 +92,9 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className="text-xl">
-            © 2023 <span className="text-[#FEBF00] font-bold">Niomax</span> All
-            Rights Reserved{" "}
+          <p className="text-xl lg:text-2xl 2xl:text-3xl">
+            © 2024 <span className="text-[#FEBF00] font-bold">Niomax</span> All
+            Rights Reserved
           </p>
         </div>
       </div>

@@ -2,141 +2,146 @@ import { FiPhoneCall } from "react-icons/fi";
 
 const Experience = () => {
   return (
-    <div className="lg:px-48 py-8 lg:py-28 m-5 relative">
+    <div className="lg:px-48 py-8 lg:py-28 m-4 relative">
       <div>
         {/* top part  */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 reviews-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="relative">
-            <img src="https://i.ibb.co.com/Wf42Zv6/experience.png" alt="" />
+            <img
+              src="https://i.ibb.co.com/Wf42Zv6/experience.png"
+              alt=""
+              className="w-full"
+            />
 
-            <div className="flex justify-center reviews-center w-32 h-20 lg:w-60 lg:h-36 bg-white absolute top-5 left-5 lg:rounded-2xl">
+            <div className="flex items-center bg-white absolute top-5 left-5 p-2 rounded-lg sm:w-1/2 xl:w-1/3">
               <div
-                className="radial-progress text-[#FEBF00] lg:mr-5"
+                className="radial-progress text-[#FEBF00] mr-2"
                 style={{ "--value": 85 }}
                 role="progressbar"
               >
-                <p className="text-[#333] text-xs lg:text-2xl">50+</p>
+                <p className="text-[#333] text-2xl sm:text-2xl md:text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl">
+                  50+
+                </p>
               </div>
 
-              <div className="text-xs">
+              <div className="text-xl xl:ml-5 2xl:ml-10">
                 Market <br /> Experiences
               </div>
             </div>
           </div>
 
-          <div>
-            {/* Tabs Section  */}
-            <div role="tablist" className="tabs tabs-bordered ">
-              {/* tab review 01  */}
-              <input
-                type="radio"
-                name="my_tabs_1"
-                role="tab"
-                className="tab checked:bg-[#BD1F17] checked:text-[#fff]"
-                aria-label="About"
-                defaultChecked
-              />
-              <div role="tabpanel" className="tab-content py-10 space-y-3">
-                <h1 className="font-Bebas text-4xl lg:text-6xl">
-                  Exceptional culinary experience and delicious food
-                </h1>
-                <p className="font-Roboto text-[#333]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Ornare non sed est cursus. Vel hac convallis ipsum, facilisi
-                  odio pellentesque bibendum viverra tempus. Lorem ipsum dolor
-                  sit amet consectetur adipiscing elit do eiusmod tempor
-                  incididunt ut labore et dolore magna minim veniam nostrud
-                  exercitation.
+          {/*===================== Tabs Section coding start =======================*/}
+          <div role="tablist" className="tabs tabs-bordered ">
+            {/* =========== About Tab part start ==========*/}
+            <input
+              type="radio"
+              name="my_tabs_1"
+              role="tab"
+              className="tab checked:bg-[#BD1F17] checked:text-[#fff] text-sm md:text-3xl md:h-16 lg:text-sm lg:h-8"
+              aria-label="About"
+              defaultChecked
+            />
+            <div role="tabpanel" className="tab-content py-10 space-y-3">
+              <h1 className="font-Bebas text-4xl sm:text-7xl md:text-8xl lg:text-5xl 2xl:text-6xl">
+                Exceptional culinary experience and delicious food
+              </h1>
+              <p className="font-Roboto text-[#333]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare
+                non sed est cursus. Vel hac convallis ipsum, facilisi odio
+                pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet
+                consectetur adipiscing elit do eiusmod tempor incididunt ut
+                labore et dolore magna minim veniam nostrud exercitation.
+              </p>
+
+              <div className="flex justify-between items-center">
+                <button className="btn font-Roboto uppercase bg-[#FEBF00] text-[#0A1425]">
+                  About More
+                </button>
+
+                <p className="font-bold flex items-center p-2 border border-dashed text-lg">
+                  <FiPhoneCall className="text-[#BD1F17] h-5 w-5 text-lg mr-2" />
+                  0178 429 3797
                 </p>
-
-                <div className="flex reviews-center">
-                  <button className="btn font-Roboto uppercase bg-[#FEBF00] text-[#0A1425]">
-                    About More
-                  </button>
-
-                  <p className="font-bold flex reviews-center border border-dashed text-lg ml-10">
-                    <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178
-                    429 3797
-                  </p>
-                </div>
-              </div>
-
-              {/* tab review 02  */}
-              <input
-                type="radio"
-                name="my_tabs_1"
-                role="tab"
-                className="tab checked:bg-[#BD1F17] checked:text-[#fff]"
-                aria-label="Experience"
-              />
-              <div role="tabpanel" className="tab-content py-10 space-y-3">
-                <h1 className="font-Bebas text-4xl lg:text-6xl">
-                  Exceptional culinary experience and delicious food
-                </h1>
-                <p className="font-Roboto text-[#333]">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Facilis, quae! Et neque quae quam, consequatur quaerat autem?
-                  Cumque, maxime! Cumque magnam, ab accusamus explicabo amet
-                  cupiditate quibusdam, omnis sequi, hic ad voluptatum earum
-                  libero ut? Deleniti impedit neque nulla, unde error est
-                  consequuntur voluptas sint itaque voluptatibus officia facilis
-                  voluptatem!
-                </p>
-
-                <div className="flex reviews-center">
-                  <button className="btn font-Roboto uppercase bg-[#FEBF00] text-[#0A1425]">
-                    About More
-                  </button>
-
-                  <p className="font-bold flex reviews-center border border-dashed text-lg ml-10">
-                    <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178
-                    429 3797
-                  </p>
-                </div>
-              </div>
-
-              {/* tab review 03  */}
-              <input
-                type="radio"
-                name="my_tabs_1"
-                role="tab"
-                className="tab checked:bg-[#BD1F17] checked:text-[#fff]"
-                aria-label="Contact"
-              />
-              <div role="tabpanel" className="tab-content py-10 space-y-3">
-                <h1 className="font-Bebas text-4xl lg:text-6xl">
-                  Exceptional culinary experience and delicious food
-                </h1>
-                <p className="font-Roboto text-[#333]">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aperiam, magnam? Iusto est minus alias labore praesentium illo
-                  blanditiis, reprehenderit laboriosam architecto obcaecati
-                  ipsam quod voluptatem temporibus, nam eligendi tempore, nobis
-                  animi ab perspiciatis eaque molestiae dolore harum! Atque
-                  dignissimos aut voluptatum non, nulla fugiat quisquam quas
-                  eius animi officiis nobis?
-                </p>
-
-                <div className="flex reviews-center">
-                  <button className="btn font-Roboto uppercase bg-[#FEBF00] text-[#0A1425]">
-                    About More
-                  </button>
-
-                  <p className="font-bold flex reviews-center border border-dashed text-lg ml-10">
-                    <FiPhoneCall className="text-[#BD1F17] lg:mr-2" /> +88 0178
-                    429 3797
-                  </p>
-                </div>
               </div>
             </div>
+            {/* =========== About Tab part end ==========*/}
+
+            {/* =========== Experience Tab part start ==========*/}
+            <input
+              type="radio"
+              name="my_tabs_1"
+              role="tab"
+              className="tab checked:bg-[#BD1F17] checked:text-[#fff] text-sm md:text-3xl md:h-16 lg:text-sm lg:h-8"
+              aria-label="Experience"
+              defaultChecked
+            />
+            <div role="tabpanel" className="tab-content py-10 space-y-3">
+              <h1 className="font-Bebas text-4xl sm:text-7xl md:text-8xl lg:text-5xl 2xl:text-6xl">
+                Exceptional culinary experience and delicious food
+              </h1>
+              <p className="font-Roboto text-[#333]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare
+                non sed est cursus. Vel hac convallis ipsum, facilisi odio
+                pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet
+                consectetur adipiscing elit do eiusmod tempor incididunt ut
+                labore et dolore magna minim veniam nostrud exercitation.
+              </p>
+
+              <div className="flex justify-between items-center">
+                <button className="btn font-Roboto uppercase bg-[#FEBF00] text-[#0A1425]">
+                  About More
+                </button>
+
+                <p className="font-bold flex items-center p-2 border border-dashed text-lg">
+                  <FiPhoneCall className="text-[#BD1F17] h-5 w-5 text-lg mr-2" />
+                  0178 429 3797
+                </p>
+              </div>
+            </div>
+            {/* =========== Experience Tab part end ==========*/}
+
+            {/* =========== Contact Tab part start ==========*/}
+            <input
+              type="radio"
+              name="my_tabs_1"
+              role="tab"
+              className="tab checked:bg-[#BD1F17] checked:text-[#fff] text-sm md:text-3xl md:h-16 lg:text-sm lg:h-8"
+              aria-label="Contact"
+              defaultChecked
+            />
+            <div role="tabpanel" className="tab-content py-10 space-y-3">
+              <h1 className="font-Bebas text-4xl sm:text-7xl md:text-8xl lg:text-4xl 2xl:text-6xl">
+                Exceptional culinary experience and delicious food
+              </h1>
+              <p className="font-Roboto text-[#333] text-base sm:text-2xl md:text-3xl lg:text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare
+                non sed est cursus. Vel hac convallis ipsum, facilisi odio
+                pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet
+                consectetur adipiscing elit do eiusmod tempor incididunt ut
+                labore et dolore magna minim veniam nostrud exercitation.
+              </p>
+
+              <div className="flex justify-between items-center ">
+                <button className="btn md:h-24 lg:h-0 font-Roboto uppercase bg-[#FEBF00] text-[#0A1425] sm:text-2xl lg:text-lg">
+                  About More
+                </button>
+
+                <p className="font-bold md:h-24 md:text-5xl lg:text-xl sm:text-3xl lg:h-0 flex items-center p-2 border border-dashed text-lg">
+                  <FiPhoneCall className="text-[#BD1F17] h-5 w-5 md:h-10 md:w-10 lg:h-5 text-base mr-2" />
+                  0178 429 3797
+                </p>
+              </div>
+            </div>
+            {/* =========== Experience Tab part end ==========*/}
           </div>
+          {/*===================== Tabs Section coding end =======================*/}
         </div>
 
         {/* ===================================================== */}
         {/* bottom part  */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 lg:py-10">
-          <div className="flex reviews-center justify-center gap-10">
-            <div className="shadow-lg flex justify-center reviews-center h-20 w-20 rounded-full p-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:py-10">
+          <div className="flex items-center justify-center gap-10">
+            <div className="shadow-lg flex justify-center items-center h-20 w-20 rounded-full p-2">
               <img src="https://i.ibb.co.com/TtgLn30/package.jpg" alt="" />
             </div>
             <div className="flex-grow">
@@ -145,8 +150,8 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="flex reviews-center justify-center gap-10">
-            <div className="shadow-lg flex justify-center reviews-center h-20 w-20 rounded-full p-2">
+          <div className="flex items-center justify-center gap-10">
+            <div className="shadow-lg flex justify-center items-center h-20 w-20 rounded-full p-2">
               <img src="https://i.ibb.co.com/ww6Nnpg/medal.png" alt="" />
             </div>
             <div className="flex-grow">
@@ -155,8 +160,8 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="flex reviews-center justify-center gap-10">
-            <div className="shadow-lg flex justify-center reviews-center h-20 w-20 rounded-full p-2">
+          <div className="flex items-center justify-center gap-10">
+            <div className="shadow-lg flex justify-center items-center h-20 w-20 rounded-full p-2">
               <img src="https://i.ibb.co.com/JQzjZMy/bag.png" alt="" />
             </div>
             <div className="flex-grow">
@@ -167,7 +172,11 @@ const Experience = () => {
         </div>
       </div>
 
-      <img className="absolute hidden lg:flex bottom-16 right-0" src="https://i.ibb.co.com/Cv6nGfd/view-bell-sliced.png" alt="" />
+      <img
+        className="absolute hidden lg:flex bottom-16 right-0"
+        src="https://i.ibb.co.com/Cv6nGfd/view-bell-sliced.png"
+        alt=""
+      />
     </div>
   );
 };

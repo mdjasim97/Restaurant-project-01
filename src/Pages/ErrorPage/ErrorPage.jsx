@@ -10,7 +10,7 @@ const ErrorPage = () => {
     
     return (
         <div>
-            <div className='flex flex-col justify-center min-h-screen reviews-center space-y-8'>
+            <div className='flex flex-col justify-center min-h-screen items-center space-y-8'>
                 <h1 className='text-9xl font-bold'>Oops...</h1>
                 <p className='text-2xl'>404 Not found page</p>
                 <button onClick={handleNavigate} className='btn'>Back</button>

@@ -10,12 +10,12 @@ const BookForm = () => {
       <div className="h-full lg:px-48">
         <div className="space-y-5 lg:w-3/5 text-white">
           <p>
-            <li className="list-square lg:text-xl font-bold text-[#BD1F17]">
+            <li className="list-square md:text-2xl lg:text-xl font-bold text-[#BD1F17]">
               Crispy, Every Bite Taste
             </li>
           </p>
-          <h1 className="text-5xl lg:text-6xl  font-Bebas">Book Your Table</h1>
-          <p className="text-base">
+          <h1 className="text-5xl md:text-8xl lg:text-6xl  font-Bebas">Book Your Table</h1>
+          <p className="text-base md:text-2xl lg:text-base">
             Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
             molestie vel, ornare non id blandit netus.
           </p>

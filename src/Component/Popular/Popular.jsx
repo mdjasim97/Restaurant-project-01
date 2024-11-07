@@ -25,12 +25,12 @@ const Popular = () => {
         <div className="flex justify-between">
           <div className="space-y-5">
             <p>
-              <li className="list-square lg:text-xl font-bold text-[#BD1F17]">
+              <li className="list-square md:text-2xl lg:text-xl font-bold text-[#BD1F17]">
                 Crispy, Every Bite Taste
               </li>
             </p>
-            <h1 className="text-5xl lg:text-6xl font-bold font-Bebas">
-              POPULAR FOOD reviewS
+            <h1 className="text-5xl md:text-8xl lg:text-6xl font-bold font-Bebas">
+              POPULAR FOOD ITEMS
             </h1>
           </div>
 
@@ -80,7 +80,7 @@ const Popular = () => {
                 <SwiperSlide key={review.id} className="my-5 lg:my-20">
                   <div
                     key={review.id}
-                    className="bg-[#FFFFFF] flex p-5 flex-col justify-center items-center reviews-center"
+                    className="bg-[#FFFFFF] flex p-5 flex-col justify-center items-center items-center"
                   >
                     <img src={review.image} alt="" className="lg:h-24" />
 
@@ -97,7 +97,7 @@ const Popular = () => {
           </Swiper>
         </div>
 
-        {/* smail device carousel control btn  */}
+        {/* small device carousel control btn  */}
         <div className="lg:hidden flex justify-center">
           <button
             className="btn rounded-full drop-shadow-xl mr-5"
