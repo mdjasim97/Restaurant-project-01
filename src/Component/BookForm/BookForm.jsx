@@ -1,9 +1,31 @@
 import { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { bookingApi } from "../../ApiServices/ApiServices";
 
 const BookForm = () => {
   const [startDate, setStartDate] = useState(new Date());
+
+  const handleFormData = (e) => {
+    e.preventDefault();
+    const formData = e.target;
+    const name = formData.name.value;
+    const email = formData.email.value;
+    const bookingDate = startDate;
+    const totalPeople = formData.people.value;
+    const message = formData.message.value;
+
+    const bookingData = {
+      name,
+      email,
+      bookingDate,
+      totalPeople,
+      message,
+    };
+    console.log(bookingData);
+
+    bookingApi(bookingData);
+  };
 
   return (
     <div className="bg-[url('https://i.ibb.co.com/mT0VmNN/plate-dark-background.jpg')] p-4 bg-no-repeat bg-cover py-16">
@@ -14,35 +36,44 @@ const BookForm = () => {
               Crispy, Every Bite Taste
             </li>
           </p>
-          <h1 className="text-5xl md:text-8xl lg:text-6xl  font-Bebas">Book Your Table</h1>
+          <h1 className="text-5xl md:text-8xl lg:text-6xl  font-Bebas">
+            Book Your Table
+          </h1>
           <p className="text-base md:text-2xl lg:text-base">
             Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
             molestie vel, ornare non id blandit netus.
           </p>
 
           <div>
-            <form className="">
+            {/* ==========  form part start coding ============= */}
+            <form onSubmit={handleFormData}>
+              {/* user name or user email input box */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+                {/* user name input form  */}
                 <label className="flex items-center w-full border p-2">
                   Name *
                   <input
                     type="text"
+                    name="name"
                     className="bg-transparent flex-grow p-2 outline-none"
                     required
                   />
                 </label>
-
+                {/* user email input form  */}
                 <label className="flex items-center w-full border p-2">
                   Email *
                   <input
                     type="email"
+                    name="email"
                     className="bg-transparent flex-grow p-2 outline-none"
                     required
                   />
                 </label>
               </div>
 
+              {/* booing date and total people input box  */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 my-5">
+                {/* booking date  */}
                 <label className="flex items-center justify-between w-full border px-2">
                   Book Date *
                   <DatePicker
@@ -52,23 +83,25 @@ const BookForm = () => {
                   />
                 </label>
 
+                {/* total people  */}
                 <label className="flex items-center w-full border p-2">
                   Total People *
                   <input
                     type="number"
+                    name="people"
                     className="bg-transparent flex-grow p-2 outline-none"
                     required
                   />
                 </label>
               </div>
 
-              {/* message  */}
+              {/* message  input box*/}
               <div className="form-control border">
                 <label className="flex w-full border p-5">
                   Message
                   <textarea
                     type="text"
-                    name="Message"
+                    name="message"
                     className="bg-transparent pl-2 w-full focus:outline-none"
                     required
                   />
@@ -81,6 +114,7 @@ const BookForm = () => {
                 </button>
               </div>
             </form>
+            {/* ==========  form part end coding ============= */}
           </div>
         </div>
       </div>
